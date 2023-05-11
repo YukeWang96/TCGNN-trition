@@ -1,3 +1,4 @@
+# import numpy as np 
 import torch
 
 import triton
@@ -11,7 +12,7 @@ square_confs = [
     triton.testing.Benchmark(
         x_names=['M', 'N', 'K'],
         # x_vals=[128, 256, 512, 1024, 2048, 3072, 4096, 6144],
-        x_vals = [16384],
+        x_vals = [4096],
         line_arg='block',
         # line_vals=[16, 32, 64, 128],
         # line_names=['Block16', 'Block32', 'Block64', 'Block128'],

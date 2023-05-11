@@ -1,10 +1,10 @@
-Time (ms):  0.1669120043516159
-Time (ms):  0.1669120043516159
-Time (ms):  0.16793599724769592
-Time (ms):  0.16793599724769592
-Time (ms):  0.16793599724769592
 dataset=amazon0505
+Time (ms): 1684.579
 dataset=artist
+Time (ms): 25.543
 dataset=com-amazon
+Time (ms): 3048.752
 dataset=soc-BlogCatalog
+Time (ms): 78.903
 dataset=amazon0601
+Time (ms): 1648.720

@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
+import numpy as np 
 import os
 os.environ["PYTHONWARNINGS"] = "ignore"
-import numpy as np 
 from scipy import sparse, io
 import subprocess
 
 hidden = 16
-tile_size = 16384
+tile_size = 4096
 
 dataset = [
         ( 'amazon0505'          , 410236  , 22),
